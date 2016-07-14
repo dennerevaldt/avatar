@@ -70,9 +70,9 @@ function combine (name, res) {
 
   	res.json(imageSrc);
 }
-
+var PORT = process.env.PORT || 3000;
 // LISTEN SERVER PORT
-app.listen(3020);
+app.listen(PORT);
 
 
 
