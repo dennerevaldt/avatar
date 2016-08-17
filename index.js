@@ -51,7 +51,7 @@ app.use(function(err, request, response, next) {
 
 function combine (name, res) {
 	images(destPath + name)                                                                
-		.draw(images(destPath + "transparent2.png"), 0, 0)   
+		.draw(images(destPath + "transparent.png"), 0, 0)   
 		.save("avatars/"+name, {      
 		    quality : 100                
 		});
